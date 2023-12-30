@@ -1,0 +1,51 @@
+body {
+    background: url("img/wp2.png") ;
+    text-align: center;
+    color: beige;
+    padding-left: 15vw;
+    padding-right: 15vw;
+}
+
+a {
+    color: rgb(245, 82, 82);
+}
+abbr{
+    cursor: help;
+}
+
+.audio-players{
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5em auto;
+}
+
+.audio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #beb096cc;
+    box-shadow: #111 15px 25px 30px;
+}
+
+.audio img {
+    background-color: #534e55aa;
+    box-shadow:  #020139 1px 1px 8px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+#volume-range {
+    appearance: none;
+}
+
+#volume-range ::-webkit-slider-thumb{
+    appearance: none;
+    background-color: red;
+}
+
+.volume {
+    margin-top: 1.5em;
+}
